@@ -3,6 +3,7 @@ import 'package:movie_booking_app/resources/colors.dart';
 import 'package:movie_booking_app/resources/dimens.dart';
 import 'package:movie_booking_app/resources/strings.dart';
 import 'package:movie_booking_app/widgets/button_widget.dart';
+import 'package:movie_booking_app/widgets/title_text.dart';
 
 class WelcomePage extends StatelessWidget {
   @override
@@ -21,12 +22,9 @@ class WelcomePage extends StatelessWidget {
               ),
               child: Column(
                 children: [
-                  Text(
+                  TitleText(
                     WELCOME_TITLE,
-                    style: TextStyle(
-                        color: Colors.white,
-                        fontWeight: FontWeight.w600,
-                        fontSize: TEXT_HEADING_X2),
+                    titleColor: Colors.white,
                   ),
                   SizedBox(height: MARGIN_MEDIUM),
                   Text(
@@ -38,7 +36,10 @@ class WelcomePage extends StatelessWidget {
                     ),
                   ),
                   Spacer(),
-                  ButtonWidget(),
+                  ButtonWidget(
+                    WELCOME_BUTTON_TEXT,
+                    isGhostBtn: true,
+                  ),
                 ],
               ),
             ),

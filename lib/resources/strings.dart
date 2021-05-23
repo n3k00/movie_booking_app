@@ -1,3 +1,16 @@
 const WELCOME_TITLE = "Welcome!";
 const WELCOME_TEXT = "Hello ! Welcome to Galaxy App.";
 const WELCOME_BUTTON_TEXT = "Get Started";
+const LOGIN_WELCOME_TEXT = "Welcome back, login to contine";
+const LOGIN_TEXT = "Login";
+const SIGN_IN_TEXT = "Sign in";
+const EMAIL_TEXT = "Email";
+const PASSWORD_TEXT = "Password";
+const LOGIN_FORGET_PASSWORD_TEXT = "Forget Password?";
+const CONFIRM_TEXT = "Confirm";
+const SIGN_IN_WITH_FACEBOOK = "Sign in with facebook";
+const SIGN_IN_WITH_GOOGLE = "Sing in with google";
+const NAME_TEXT = "Name";
+const PHONE_NUMBER_TEXT = "Phone Number";
+const LOGIN_WITH_FACEBOOK = "Login with facebook";
+const LOGIN_WITH_GOOGLE = "Login with google";
