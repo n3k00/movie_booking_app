@@ -14,3 +14,5 @@ const NAME_TEXT = "Name";
 const PHONE_NUMBER_TEXT = "Phone Number";
 const LOGIN_WITH_FACEBOOK = "Login with facebook";
 const LOGIN_WITH_GOOGLE = "Login with google";
+const NOW_SHOWING = "Now Showing";
+const COMING_SOON = "Coming Soon";

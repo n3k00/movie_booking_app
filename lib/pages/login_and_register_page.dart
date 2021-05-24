@@ -204,10 +204,6 @@ class LoginView extends StatelessWidget {
 }
 
 class LoginButtonsView extends StatelessWidget {
-  const LoginButtonsView({
-    Key key,
-  }) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return Container(
