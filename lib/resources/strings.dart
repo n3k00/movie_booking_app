@@ -16,3 +16,6 @@ const LOGIN_WITH_FACEBOOK = "Login with facebook";
 const LOGIN_WITH_GOOGLE = "Login with google";
 const NOW_SHOWING = "Now Showing";
 const COMING_SOON = "Coming Soon";
+const PLOST_SUMMARY = "Plot Summary";
+const CAST = "Cast";
+const GET_YOUR_TICKET = "Get Your Ticket";
