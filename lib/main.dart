@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:movie_booking_app/pages/combo_set_page.dart';
 import 'package:movie_booking_app/pages/home_page.dart';
 import 'package:movie_booking_app/pages/login_and_register_page.dart';
 import 'package:movie_booking_app/pages/movie_details_page.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.white,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MovieDetailsPage(),
+      home: ComboSetPage(),
     );
   }
 }
